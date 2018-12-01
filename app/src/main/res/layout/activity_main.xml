@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5477f4"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="156dp"
+        android:layout_height="193dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="Email"
+        android:textColor="#fefefe"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:shadowColor="#fefefe"
+        android:textColor="#fefefe"
+        android:textColorHighlight="#fefefe"
+        android:textColorHint="#fefefe"
+        android:textColorLink="#fefefe"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:text="Password"
+        android:textColor="#fefefe"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:shadowColor="#fefefe"
+        android:textColor="#fefefe"
+        android:textColorHighlight="#fefefe"
+        android:textColorHint="#fefefe"
+        android:textColorLink="#fefefe"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="35dp"
+        android:padding="15dp"
+        android:text="Login"
+        android:textColorLink="#fefefe"
+        tools:background="#fefefe"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="No Account Yet? Create one"
+        android:textColor="#fefefe"
+        android:textColorHighlight="#fefefe"
+        android:textColorHint="#fefefe"
+        android:textColorLink="#fefefe"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="511dp" />
+</LinearLayout>
